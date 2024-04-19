@@ -30,3 +30,7 @@ What is the asymptotic runtime ($\Theta$) of your algorithm in terms of the
 number of comparisons? What is it in terms of the number of flips? Add your
 answer to this markdown file.
 
+The number of comparisons for a given array of size n would be n^2 as the pancake sort iterates over each individual point in the array,
+comparing it to the rest of the array.
+In terms of the number of flips, it is directly proportional to 2n, or n when constants are removed as the for loop iterates 2 flips each time.
+
